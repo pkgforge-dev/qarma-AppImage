@@ -16,3 +16,6 @@ get-debloated-pkgs --add-common --prefer-nano
 make-aur-package https://github.com/luebking/qarma
 
 # If the application needs to be manually built that has to be done down here
+
+# simple qt app should work without hardware accel
+pacman -Rsn --noconfirm mesa
