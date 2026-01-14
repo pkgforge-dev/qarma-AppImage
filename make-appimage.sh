@@ -12,7 +12,7 @@ export DESKTOP=DUMMY
 export MAIN_BIN=qarma
 
 # Deploy dependencies
-quick-sharun /usr/bin/qarma*
+quick-sharun /usr/bin/qarma* /usr/bin/zenity
 
 # Additional changes can be done in between here
 
