@@ -15,7 +15,8 @@ get-debloated-pkgs --add-common --prefer-nano
 # Comment this out if you need an AUR package
 make-aur-package https://github.com/luebking/qarma
 
-# If the application needs to be manually built that has to be done down here
+# symlink qarma as zenity so that window class matches when used as zenity
+ln -sf qarma /usr/bin/zenity
 
 # simple qt app should work without hardware accel
 pacman -Rdd --noconfirm mesa
