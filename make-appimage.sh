@@ -10,6 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=DUMMY
 export DESKTOP=DUMMY
 export MAIN_BIN=qarma
+export ANYLINUX_LIB=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/qarma* /usr/bin/zenity
