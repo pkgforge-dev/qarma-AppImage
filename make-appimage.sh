@@ -14,6 +14,9 @@ export MAIN_BIN=qarma
 # Deploy dependencies
 quick-sharun /usr/bin/qarma* /usr/bin/zenity
 
+# needed since this app puts the whole binary path as argv0
+echo 'OVERRIDE_ARGV0=${ARG0}' >> ./AppDir/.env
+
 # Additional changes can be done in between here
 
 # Turn AppDir into AppImage
